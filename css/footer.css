@@ -1,0 +1,70 @@
+
+footer {
+  overflow: hidden;
+  font-family: TitilliumWeb-Regular;
+  color: white;
+  background: linear-gradient(-0deg,rgba(255, 56, 40, 0.8),rgba(251, 174, 64, 0.8)), url('../img/background-footer.jpg')  no-repeat;
+  background-size: 100% 100%, cover;
+}
+
+footer h4, footer h2{
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+footer h4{
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 18px;
+}
+
+footer div.message-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div.message-container *{
+  width: 450px;
+  padding: 4px;
+}
+footer div.message-container .textComponent{
+
+  background-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  font-size: 14px;
+  color: white;
+}
+
+footer div.message-container input{
+  background-color: rgba(255, 255, 255, 0);
+  height:44px;
+}
+
+footer div.message-container textarea{
+  background-color: rgba(255, 255, 255, 0);
+  height:140px;
+}
+
+footer div.message-container button{
+  color: white;
+  padding: 14px;
+  margin: 8px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  height: 48px;
+  font-size: 18px;
+  background-color: rgba(255, 174, 5, 0.8);
+}
+
+footer div.message-container button:hover{
+  border: rgba(255, 174, 5, 1.0);
+  background-color: rgba(255, 56, 40, 1);
+}
+
+footer div.message-container *:focus {
+  outline:none !important;
+}

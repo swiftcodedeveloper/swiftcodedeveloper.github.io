@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+
+header {
+  overflow: hidden;
+  background: linear-gradient(-0deg,rgba(251, 174, 64, 0.8),rgba(255, 56, 40, 0.8)), url('../img/background-header.jpg')  no-repeat;
+  background-size: 100% 100%, cover;
+}
+
+.profile{
+  margin-left:44px;
+  margin-right: 44px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  color: white;
+  font-family: Roboto Mono,monospace;
+}
+
+#stack-overflow, #linkedin, #youtube{
+   display:inline;
+   padding: 10px 10px;
+}
+.profile a{
+  color: white;
+}
+
+.profile a:hover{
+  color: rgba(255, 255, 255, 0.4);
+}
